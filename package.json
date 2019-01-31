@@ -1,0 +1,17 @@
+{
+  "name": "us-census-server",
+  "version": "0.0.1",
+  "description": "US Census Data Server for Collinear Data",
+  "main": "app.js",
+  "dependencies": {
+    "axios": "^0.18.0",
+    "cors": "^2.8.1",
+    "express": "^4.14.0",
+    "nodemon": "^1.17.4",
+    "request": "^2.81.0"
+  },
+  "scripts": {
+    "start": "node app.js",
+    "dev": "nodemon app.js"
+  }
+}
