@@ -1,13 +1,12 @@
-FROM node:8-alpine
+FROM node:10
 
 # Create app directory
-RUN mkdir -p /usr/src/app
-WORKDIR /usr/src/app
-COPY . /usr/src/app
+WORKDIR /app
+COPY ./package.json /app
 
 # Install app dependencies
 RUN npm install
-
-EXPOSE 3005
+COPY . /app
+EXPOSE 3000
 
 CMD ["npm", "start"]
