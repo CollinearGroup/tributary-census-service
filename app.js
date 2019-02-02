@@ -4,7 +4,7 @@ const request = require('request');
 const cors = require('cors');
 
 const ip = process.env.IP || 'localhost';
-const port = process.env.PORT || 3005;
+const port = process.env.PORT || 3000;
 const controller = require('./controller');
 
 app.use(cors())
