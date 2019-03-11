@@ -1,6 +1,6 @@
 {
   "name": "us-census-server",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "US Census Data Server for Collinear Data",
   "main": "app.js",
   "dependencies": {
